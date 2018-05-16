@@ -9,7 +9,7 @@ This is a project to demonstrate a WebView crash on FireTV:
 5. it should crash with the back trace below:
 
 
-05-16 19:09:34.135 23969-23969/dailymotion.com.crashwebview E/MessageQueue-JNI: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.dispatchDetachedFromWindow()' on a null object reference
+    05-16 19:09:34.135 23969-23969/dailymotion.com.crashwebview E/MessageQueue-JNI: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.dispatchDetachedFromWindow()' on a null object reference
         at android.view.ViewGroup.dispatchDetachedFromWindow(ViewGroup.java:2847)
         at android.view.ViewGroup.removeViewInternal(ViewGroup.java:4233)
         at android.view.ViewGroup.removeViewInternal(ViewGroup.java:4206)
@@ -50,8 +50,8 @@ This is a project to demonstrate a WebView crash on FireTV:
         at java.lang.reflect.Method.invoke(Method.java:372)
         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:984)
         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:779)
-05-16 19:09:34.135 23969-23969/dailymotion.com.crashwebview D/AndroidRuntime: Shutting down VM
-05-16 19:09:34.136 23969-23969/dailymotion.com.crashwebview E/AndroidRuntime: FATAL EXCEPTION: main
+    05-16 19:09:34.135 23969-23969/dailymotion.com.crashwebview D/AndroidRuntime: Shutting down VM
+    05-16 19:09:34.136 23969-23969/dailymotion.com.crashwebview E/AndroidRuntime: FATAL EXCEPTION: main
     Process: dailymotion.com.crashwebview, PID: 23969
     java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.dispatchDetachedFromWindow()' on a null object reference
         at android.view.ViewGroup.dispatchDetachedFromWindow(ViewGroup.java:2847)
